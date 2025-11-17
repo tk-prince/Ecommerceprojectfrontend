@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StepUp | e-commerce mini project</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/suplogo.png" width="125px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/cartic.png" width="30px" height="30px"></a>
+                <img src="images/menubar.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Search">
+                <a href="products.html"> <button class="btn">Search</button></a>
+            </div>
+                <div class="row">
+                    <div class="col-2">
+                        <h1>
+                            Take Stylish Steps Up<br>
+                            Into Elegance!
+                        </h1>
+                        <p>
+                            StepUp is a leading online store for shoes and accessories.<br>
+                            We have a wide range of products
+                        </p>
+                        <a href="products.html" class="btn">Explore Now &#8594;</a>
+                    </div>
+                    <div class="col-2">
+                        <video autoplay loop muted plays-inline class="back-video">
+                            <source src="videoplayback.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <!-----featured categories----->
+                <div class="categories">
+                    <div class="small-container">
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="images/category-1.jpg" height="450px">
+                            </div>
+                            <div class="col-3">
+                                <img src="images/category-2.jpg" height="450px">
+                            </div>
+                            <div class="col-3">
+                                <img src="images/category-3.jpg" height="450px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-----featured products----->
+                <div class="small-container">
+                    <h2 class="title">Featured Products</h2>
+                    <div class="row">
+                        <div class="col-4">
+                            <a href="productdetails.html"><img src="images/product1.jpg" width="280px"
+                                    height="280px"></a>
+                            <a href="productdetails.html">
+                                <h4>Black Executive Shoe</h4>
+                            </a>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <p>₵500.00</p>
+                        </div>
+                        <div class="col-4">
+                            <a href="productdetails.html"><img src="images/product2.jpg" width="280px"
+                                    height="280px"></a>
+                            <a href="productdetails.html">
+                                <h4>Yellow Heels</h4>
+                            </a>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <p>₵400.00</p>
+                        </div>
+                        <div class="col-4">
+                            <a href="productdetails.html"><img src="images/product3.jpg" width="280px"
+                                    height="280px"></a>
+                            <a href="productdetails.html">
+                                <h4>Violet Heels</h4>
+                            </a>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                            </div>
+                            <p>₵450.00</p>
+                        </div>
+                        <div class="col-4">
+                            <a href="productdetails.html"><img src="images/product4.jpg" width="280px"
+                                    height="280px"></a>
+                            <a href="productdetails.html">
+                                <h4>Ladies' White Boots</h4>
+                            </a>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <p>₵450.00</p>
+                        </div>
+                    </div>
+                    <h2 class="title">Latest Products</h2>
+                    <div class="row">
+                        <div class="col-4">
+                            <a href="productdetails.html"><img src="images/product5.jpg" width="280px"
+                                    height="280px"></a>
+                            <a href="productdetails.html">
+                                <h4>Male Brown Shoe</h4>
+                            </a>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <p>₵450.00</p>
+                        </div>
+                        <div class="col-4">
+                            <a href="productdetails.html"><img src="images/product6.jpg" width="280px"
+                                    height="280px"></a>
+                            <a href="productdetails.html">
+                                <h4>Brown Executive Shoe</h4>
+                            </a>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <p>₵400.00</p>
+                        </div>
+                        <div class="col-4">
+                            <a href="productdetails.html"><img src="images/product7.jpg" width="280px"
+                                    height="280px"></a>
+                            <a href="productdetails.html">
+                                <h4>Black and White Sneakers</h4>
+                            </a>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                            </div>
+                            <p>₵600.00</p>
+                        </div>
+                        <div class="col-4">
+                            <a href="productdetails.html"><img src="images/product8.jpg" width="280px"
+                                    height="280px"></a>
+                            <a href="productdetails.html">
+                                <h4>White Sneakers</h4>
+                            </a>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <p>₵500.00</p>
+                        </div>
+                        <div class="col-4">
+                            <a href="productdetails.html"><img src="images/product9.jpg" width="280px"
+                                    height="280px"></a>
+                            <a href="productdetails.html">
+                                <h4>Brown Military Boots</h4>
+                            </a>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <p>₵450.00</p>
+                        </div>
+                        <div class="col-4">
+                            <a href="productdetails.html"><img src="images/product10.jpg" width="280px"
+                                    height="280px"></a>
+                            <a href="productdetails.html">
+                                <h4>Male Blue Canvas</h4>
+                            </a>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <p>₵400.00</p>
+                        </div>
+                        <div class="col-4">
+                            <a href="productdetails.html"><img src="images/product11.jpg" width="280px"
+                                    height="280px"></a>
+                            <a href="productdetails.html">
+                                <h4>Yellow Sports Shoes</h4>
+                            </a>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                            </div>
+                            <p>₵500.00</p>
+                        </div>
+                        <div class="col-4">
+                            <a href="productdetails.html"><img src="images/product12.jpg" width="280px"
+                                    height="280px"></a>
+                            <a href="productdetails.html">
+                                <h4>Women's Leather Sandals</h4>
+                            </a>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <p>₵450.00</p>
+                        </div>
+                    </div>
+                </div>
+                <!-----offer----->
+                <div class="offer">
+                    <div class="small-container">
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="images/exclusive1.jpeg" class="offer-img">
+                            </div>
+                            <div class="col-2">
+                                <p>Only On StepUp</p>
+                                <h1>Sandals Heels</h1>
+                                <small>Get the best sandals heels at StepUp</small><br>
+                                <a href="cart.html" class="btn">Buy Now &#8594;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-------testimonial------->
+                <div class="testimonial">
+                    <div class="small-container">
+                        <div class="row">
+                            <div class="col-3">
+                                <i class="fa fa-quote-left"></i>
+                                <p>StepUp delivers top-tier quality and comfort-every pair feels like a game changer on
+                                    and off the pitch. If you want to elevate your style and performance, this is your
+                                    go-to site. Trust me, these shoes are worth the upgrade.</p>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+                                </div>
+                                <img src="images/cr7.jpeg">
+                                <h3>Cristiano Ronaldo</h3>
+                            </div>
+                            <div class="col-3">
+                                <i class="fa fa-quote-left"></i>
+                                <p>StepUp brings the heat with kicks that hit like a verse-crafted for the culture and
+                                    built to move with purpose. If you're about bold vibes and sharper fits, lace up and
+                                    level up. Trust the vision; these shoes ain't just footwear, they're a statement.
+                                </p>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+                                </div>
+                                <img src="images/kendrick.jpeg">
+                                <h3>Kendrick Lamar</h3>
+                            </div>
+                            <div class="col-3">
+                                <i class="fa fa-quote-left"></i>
+                                <p>StepUp's kicks are built to dominate-every step feels like you're charging the court
+                                    with championship-level precision and power. Innovative designs that inspire
+                                    greatness on and off the hardwood-this is where legacy meets next level gear.</p>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+                                </div>
+                                <img src="images/lebronjames.jpg">
+                                <h3>Lebron James</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-------brands------->
+                <div class="brands">
+                    <div class="small-container">
+                        <div class="row">
+                            <div class="col-5">
+                                <img src="images/logo-adidas.png">
+                            </div>
+                            <div class="col-5">
+                                <img src="images/logo-lv.png">
+                            </div>
+                            <div class="col-5">
+                                <img src="images/logo-puma.png">
+                            </div>
+                            <div class="col-5">
+                                <img src="images/logo-nike.png">
+                            </div>
+                            <div class="col-5">
+                                <img src="images/logo-newbalance.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-------footer------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our app</h3>
+                    <p>Download the StepUp mobile app for ios and Android mobile phones</p>
+                    <div class="app-logo">
+                        <a href="https://play.google.com" target="_blank"><img src="images/logo-playstore.png"></a>
+                        <a href="https://apple.com/app-store" target="_blank"><img src="images/logo-appstore.png"></a>
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/suplogo.png">
+                    <p>Our purpose is to provide the best shoes and accessories to our customers</p>
+
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <a href="https://coupons.com" target="_blank">
+                            <li>Coupons</li>
+                        </a>
+                        <a href="https://blogger.com" target="_blank">
+                            <li>Blog Post</li>
+                        </a>
+                        <a href="https://stepupshoe.com/return-exchange" target="_blank">
+                            <li>Return Policy</li>
+                        </a>
+                        <a href="https://affiliate-program.amazon.com" target="_blank">
+                            <li>Join Affiliate</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <a href="https://facebook.com" target="_blank">
+                            <li>Facebook</li>
+                        </a>
+                        <a href="https://x.com" target="_blank">
+                            <li>Twitter</li>
+                        </a>
+                        <a href="https://instagram.com" target="_blank">
+                            <li>Instagram</li>
+                        </a>
+                        <a href="https://youtube.com" target="_blank">
+                            <li>Youtube</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2025 - StepUp</p>
+        </div>
+    </div>
+    <!--js for toggle menu-->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>

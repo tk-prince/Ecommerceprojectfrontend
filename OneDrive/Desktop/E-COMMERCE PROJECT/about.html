@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - StepUp</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/suplogo.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cartic.png" width="30px" height="30px"></a>
+            <img src="images/menubar.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+        <div class="about-page">
+            <h1>About StepUp</h1>
+            <p>Welcome to StepUp - Where every step tells a story.</p>
+            <p>At StepUp, we believe that the right pair of shoes isn't just about style or comfort-it's about
+                confidence, adventure and embracing life's journey.
+                Founded in 2025 by a team of footwear enthusiasts, our mission is to empower you to StepUp your game,
+                whether you're chasing your dreams, conquering trails or simply strolling through your day.
+            </p>
+            <h1>Our Story</h1>
+            <p>StepUp began as a small idea on University of Ghana Campus, born from a shared love for shoes that blend
+                form and function.
+                Frustrated by the lack of options that offered both quality and personality, we set out to curate a
+                collection that celebrates individuality.
+                From our humble beginnings as a campus Whatsapp shop, we've grown into a national e-commerce platform,
+                connecting shoe lovers everywhere with styles that inspire.
+            </p>
+            <h1>Our Values</h1>
+            <p><strong>Craftmanship:</strong> Every shoe in or collection is handpicked for its durability, design and
+                attention detail.
+                We partner with brands that prioritize ethical production and innovative materials.</p>
+            <p><strong>Sustainability:</strong> We're committed to stepping lightly on the planet. From eco-friendly
+                packaging to supporting brands supporting brands that use recycled materials, we're dedicated to
+                reducing our footprint.</p>
+            <p><strong>Community:</strong> Shoes bring people together. That's why we donate a portion of every sale to
+                initiatives providing footwear for deprived communities.</p>
+            <h1>Why Choose StepUp?</h1>
+            <p><strong>Curated Collections:</strong> Discover styles for every occasion-casual sneakers, sleek formal
+                wear, rugged hiking boots and trendsetting limited editions.</p>
+            <p><strong>Seamless Experience:</strong> Enjoy hassle-free shopping with free nationwide delivery, easy
+                returns and 24/7 customer support.</p>
+            <p><strong>Fit Guarantee:</strong> Not sure about sizing? we've got a wide range of sizes and detailed
+                sizing guides to ensure your perfect match.</p>
+            <h1>Join the Movement</h1>
+            <p>StepUp isn't just a store-it's a community of movers, dreamers and trailblazers. Follow us on social
+                media for style tips, behind the scenes stories and exclusive discounts and giveaways.Together, let's
+                walk toward a brighter future, one step at a time.</p>
+            <h1>Ready to StepUp your Shoe Game?</h1>
+            <p>Explore our collections today and find the pair that moves you.</p>
+            <strong>StepUp - Walk Boldly. Live Fully.</strong>
+            Every Purchase plants a tree. Thank you for walking with purpose.
+        </div>
+        <!-------footer------->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our app</h3>
+                        <p>Download the StepUp mobile app for ios and Android mobile phones</p>
+                        <div class="app-logo">
+                            <a href="https://play.google.com" target="_blank"><img src="images/logo-playstore.png"></a>
+                            <a href="https://apple.com/app-store" target="_blank"><img
+                                    src="images/logo-appstore.png"></a>
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/suplogo.png">
+                        <p>Our purpose is to provide the best shoes and accessories to our customers</p>
+
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <a href="https://coupons.com" target="_blank">
+                                <li>Coupons</li>
+                            </a>
+                            <a href="https://blogger.com" target="_blank">
+                                <li>Blog Post</li>
+                            </a>
+                            <a href="https://stepupshoe.com/return-exchange" target="_blank">
+                                <li>Return Policy</li>
+                            </a>
+                            <a href="https://affiliate-program.amazon.com" target="_blank">
+                                <li>Join Affiliate</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <a href="https://facebook.com" target="_blank">
+                                <li>Facebook</li>
+                            </a>
+                            <a href="https://x.com" target="_blank">
+                                <li>Twitter</li>
+                            </a>
+                            <a href="https://instagram.com" target="_blank">
+                                <li>Instagram</li>
+                            </a>
+                            <a href="https://youtube.com" target="_blank">
+                                <li>Youtube</li>
+                            </a>
+                        </ul>
+
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2025 - StepUp</p>
+            </div>
+        </div>
+        <!--js for toggle menu-->
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+
+            MenuItems.style.maxHeight = "0px";
+
+            function menutoggle() {
+                if (MenuItems.style.maxHeight == "0px") {
+                    MenuItems.style.maxHeight = "200px";
+                }
+                else {
+                    MenuItems.style.maxHeight = "0px";
+                }
+            }
+        </script>
+
+
+</body>
+
+</html>
