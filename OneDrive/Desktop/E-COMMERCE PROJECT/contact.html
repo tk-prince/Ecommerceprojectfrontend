@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - StepUp</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/suplogo.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cartic.png" width="30px" height="30px"></a>
+            <img src="images/menubar.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+        <div class="contact-page">
+            <h1>Contact StepUp</h1>
+            <p>Your Journey, Our Priority.</p>
+            <p>At StepUp, we're here to ensure every step of your experience is seamless, from browsing to lacing up
+                your new favorites. Have questions, feedback or need assistance? Reach out-we'd love to hear from you!
+            </p>
+            <div class="row">
+                <div class="col-3">
+                    <h2>Phone <i class="fa fa-phone"></i></h2>
+                    <p><a href="tel: +233593049692">+233 59 304 9692</a></p>
+                    <p><a href="tel:=233209828910">+233 20 982 8910</a></p>
+                </div>
+                <div class="col-3">
+                    <h2><a href="mailto:tawiahprince649@gmail.com">Email <i class="fa fa-envelope"></i></a></h2>
+                    <p>tawiahprince649@gmail.com</p>
+                    <hr>
+                    <h4>Every message you send reminds us why we do what we do - thank you for being part of the StepUp
+                        story!</h4>
+                </div>
+                <!-------footer------->
+                <div class="footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="footer-col-1">
+                                <h3>Download Our app</h3>
+                                <p>Download the StepUp mobile app for ios and Android mobile phones</p>
+                                <div class="app-logo">
+                                    <a href="https://play.google.com" target="_blank"><img
+                                            src="images/logo-playstore.png"></a>
+                                    <a href="https://apple.com/app-store" target="_blank"><img
+                                            src="images/logo-appstore.png"></a>
+                                </div>
+                            </div>
+                            <div class="footer-col-2">
+                                <img src="images/suplogo.png">
+                                <p>Our purpose is to provide the best shoes and accessories to our customers</p>
+
+                            </div>
+                            <div class="footer-col-3">
+                                <h3>Useful Links</h3>
+                                <ul>
+                                    <a href="https://coupons.com" target="_blank">
+                                        <li>Coupons</li>
+                                    </a>
+                                    <a href="https://blogger.com" target="_blank">
+                                        <li>Blog Post</li>
+                                    </a>
+                                    <a href="https://stepupshoe.com/return-exchange" target="_blank">
+                                        <li>Return Policy</li>
+                                    </a>
+                                    <a href="https://affiliate-program.amazon.com" target="_blank">
+                                        <li>Join Affiliate</li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <div class="footer-col-4">
+                                <h3>Follow Us</h3>
+                                <ul>
+                                    <a href="https://facebook.com" target="_blank">
+                                        <li>Facebook</li>
+                                    </a>
+                                    <a href="https://x.com" target="_blank">
+                                        <li>Twitter</li>
+                                    </a>
+                                    <a href="https://instagram.com" target="_blank">
+                                        <li>Instagram</li>
+                                    </a>
+                                    <a href="https://youtube.com" target="_blank">
+                                        <li>Youtube</li>
+                                    </a>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="copyright">Copyright 2025 - StepUp</p>
+                    </div>
+                </div>
+                <!--js for toggle menu-->
+                <script>
+                    var MenuItems = document.getElementById("MenuItems");
+
+                    MenuItems.style.maxHeight = "0px";
+
+                    function menutoggle() {
+                        if (MenuItems.style.maxHeight == "0px") {
+                            MenuItems.style.maxHeight = "200px";
+                        }
+                        else {
+                            MenuItems.style.maxHeight = "0px";
+                        }
+                    }
+                </script>
+
+
+</body>
+
+</html>
